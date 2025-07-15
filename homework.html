@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery Homework</title>
+	<link rel="stylesheet" href="gallery.css">
+</head>
+
+<body onload="loaded()">
+
+	<div id="image">
+		Hover over an image below to display here.
+	</div>
+
+	<div id="photos">
+	<img class="preview" alt="Yellow banana" src="images/cacho-de-bananas.jpg" onmouseover="upDate(this)"
+		onmouseout="unDo()">
+
+	<img class="preview" alt="green banana" src="images/banana lavada.jpg" onmouseover="upDate(this)"
+		onmouseout="unDo()">
+
+	<img class="preview" src="images/chips-de-banana-da-terra-1.jpeg" alt="cooked banana" onmouseover="upDate(this)"
+		onmouseout="unDo()">
+
+	<img class="preview" src="images/recipe-image-legacy-id-1273522_8-a6b9246.jpg" alt="" onmouseover="upDate(this)"
+		onmouseout="unDo()">
+
+	<img class="preview" src="images/images.jpg" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
+
+	<img class="preview" src="images/images (1).jpg" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
+	</div>
+
+</body>
+<script src="gallery.js">
+</script>
+
+</html>
